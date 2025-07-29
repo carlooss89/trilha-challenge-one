@@ -1,25 +1,25 @@
-# 🚀 Na Trilha do Dev - Landing Page
+**🚀 Na Trilha do Dev - Landing Page **
 
 Este projeto é uma landing page responsiva desenvolvida como parte do desafio #TrilhaChallenge. O objetivo é criar uma página de destino atraente e funcional, aplicando as melhores práticas de desenvolvimento Front-end.
 
-## ✨ Visão Geral do Projeto
+**✨ Visão Geral do Projeto**
 
 A landing page tem como propósito principal apresentar a proposta da mentoria "Na Trilha do Dev", destacando os benefícios para desenvolvedores iniciantes e convidando-os a se inscreverem.
 
-### Funcionalidades Principais:
+**Funcionalidades Principais:**
 * Seção Hero com mensagem de impacto e CTA (Call to Action).
 * Seção de "O que você vai aprender" com cards interativos.
 * Seção de apresentação do #TrilhaChallenge com imagem e descrição.
 * Seção de FAQ (Perguntas Frequentes) utilizando `<details>` e `<summary>`.
 * Rodapé com informações de copyright e redes sociais.
 
-## 💻 Tecnologias Utilizadas
+##💻 Tecnologias Utilizadas
 
-* **HTML5:** Para a estruturação semântica do conteúdo.
-* **CSS3:** Para estilização, layout (Flexbox e Grid CSS) e responsividade (Mobile-First).
-* **(Opcional) JavaScript:** Pode ser adicionado futuramente para interatividade, se necessário.
+ **HTML5:** Para a estruturação semântica do conteúdo.
+ **CSS3:** Para estilização, layout (Flexbox e Grid CSS) e responsividade (Mobile-First).
+ **(Opcional) JavaScript:** Pode ser adicionado futuramente para interatividade, se necessário.
 
-## 🎨 Design
+**🎨 Design**
 
 O design desta landing page foi inspirado em um layout do Figma. A proposta é replicar o visual com fidelidade, aplicando as melhores práticas de HTML e CSS.
 
@@ -29,10 +29,10 @@ O design desta landing page foi inspirado em um layout do Figma. A proposta é r
 
 trilha-challenge-one/
 ├── assets/                  # Conteúdo estático
-│   ├── CSS/                 # Arquivos CSS
-│   │   ├── main.css         # Estilos base
-│   │   └── responsividade.css # Media Queries para responsividade
-│   └── image/               # Imagens (ícones, backgrounds)
+│     └─── CSS/                 # Arquivos CSS
+│         ├── main.css         # Estilos base
+│         └── responsividade.css # Media Queries para responsividade
+└────── image/               # Imagens (ícones, backgrounds)
 ├── index.html               # Página principal do projeto
 └── README.md                # Documentação do  projeto
 
@@ -57,5 +57,5 @@ Este projeto será futuramente deployado utilizando **Vercel** para acesso públ
 
 Se você tiver alguma dúvida, sugestão ou quiser se conectar, pode me encontrar em:
 
-* **GitHub:** [@carlooss89](https://github.com/carlooss89)
-* **Linkedin:** (www.linkedin.com/in/carlos-eduardo-sousa-silva-35297a1ba)
+**GitHub:** [@carlooss89](https://github.com/carlooss89)
+**Linkedin:** (www.linkedin.com/in/carlos-eduardo-sousa-silva-35297a1ba)
