@@ -1,0 +1,472 @@
+/* INÍCIO DA MEDIA QUERY ( (min-width: 1440px) */
+@media (min-width: 1440px) {
+
+    :root {
+        --padding-section-vertical: 140px;
+    }
+
+    .hero-section h1 {
+        font-size: 54px; 
+        margin: 0 auto;
+    }
+
+    .learn-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px 60px; 
+    max-width: 1200px;
+    width: 100%; 
+    margin: 0 auto;
+    justify-content: center; 
+}
+} /*  FIM DA MEDIA QUERY (min-width: 1440px) */
+
+/*  INÍCIO DA MEDIA QUERY (min-width: 1200px) */
+@media (min-width: 1200px) {
+    :root {
+        --padding-section-vertical: 120px;
+}
+
+.hero-section {
+        min-height: 650px; 
+    }
+
+    .hero-section h1 {
+        font-size: 72px; 
+    }
+
+    .learn-section h2 {
+        font-size: 64px; 
+    }
+
+    .learn-cards-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        max-width: 1200px;
+    }
+
+    .challenge-container {
+        max-width: 1200px;
+        gap: 60px;
+    }
+
+    .challenge-section .image-column {
+        flex: 0 0 40%; 
+        max-width: 500px;
+    }
+
+    .challenge-section .text-column {
+        flex: 1;
+        padding-left: 0;
+    }
+
+    .challenge-section h2 {
+        font-size: 70px; 
+    }
+
+    .challenge-section p {
+        font-size: 20px; 
+    }
+
+    .faq details {
+        width: 60%
+    }
+
+    .faq details h2 {
+        font-size: 35px; 
+    }
+
+    .faq p {
+        font-size: 20px; 
+    }
+}  /* FIM DA MEDIA QUERY ( min-width: 1200px ) */
+
+
+/*  INÍCIO DA MEDIA QUERY (  (min-width:768px)  */
+@media (min-width:768px) {
+    :root {
+        --paddingsection-vertical: 100px;
+    }
+
+    .hero-section { 
+        min-height: 550px;
+    }
+
+    .hero-section h1 { 
+        font-size: 54px;
+        max-width: 1000px;
+    }
+
+    .hero-section .hero-description {
+        font-size: 20px;
+    }
+
+    .hero-section .btn {
+        margin-top: 30px;
+    }
+
+    .learn-section h2 {
+        font-size: 48px;
+    }
+
+    .learn-cards-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        max-width: 1200px;
+    }
+
+    .learn-card {
+        width: auto;
+        min-height: 320px;
+        padding: 40px;
+    }
+
+    .learn-card h3 {
+        font-size: 24px;
+    }
+
+    .learn-card p {
+        font-size: 16px;
+    }
+
+    .challenge-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 9%; 
+    }
+
+    .challenge-section .image-column {
+        flex: 1;
+        max-width: 500px;
+    }
+
+    .challenge-section .image-column img {
+        width: 100%;
+        height: auto; 
+    }
+
+    .challenge-section .text-column {
+        flex: 1; 
+        text-align: left;
+    }
+
+    .challenge-section h2 {
+        font-size: 52px;
+        padding: 0;
+    }
+
+    .challenge-section p {
+        font-size: 18px;
+        margin: 0 0 30px 0;
+    }
+
+    .challenge-section .btn-second {
+        margin: 0;
+    }
+
+    .faq {
+        padding:  70px 20px;
+    }
+
+    .faq details {
+        width:  70%;
+        padding: 30px;
+    }
+
+    .faq details h2 {
+        font-size: 30px;
+        border: none;
+    }
+
+    .faq p {
+        font-size: 18px;
+        line-height: 1.7;
+        padding: 25px;
+        margin-top: 25px;
+    }
+
+    .rodape {
+    padding: 40px 20px;
+    }
+
+.rodape .container-footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    }
+
+.rodape p {
+        margin: 0;
+        font-size: 16px;
+    }
+ } /* FIM DA MEDIA QUERY ( min-width: 768px )  */
+
+
+/* INÍCIO DA MEDIA QUERY  (min-width:320px) and (max-width: 767px) */
+@media (min-width:500px) and (max-width: 767px) {
+    :root {
+        --paddingsection-vertical: 100px;
+    }
+
+    .hero-section { 
+        min-height: 550px;
+    }
+
+    .hero-section h1 { 
+        font-size: 54px;
+        max-width: 1000px;
+    }
+
+    .hero-section .hero-description {
+        font-size: 20px;
+    }
+
+    .hero-section .btn {
+        margin-top: 30px;
+    }
+
+    .learn-section h2 {
+        font-size: 48px;
+    }
+
+    .learn-cards-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        max-width: 400px;
+    }
+
+    .learn-card {
+        width: auto;
+        min-height: 320px;
+        padding: 40px;
+    }
+
+    .learn-card h3 {
+        font-size: 24px;
+    }
+
+    .learn-card p {
+        font-size: 16px;
+    }
+
+    .challenge-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .challenge-section .image-column {
+        flex: 1;
+        max-width: 500px;
+    }
+
+    .challenge-section .image-column img {
+        width: 100%;
+    }
+
+    .challenge-section .text-column {
+        flex: 1; 
+        text-align: center;
+    }
+
+    .challenge-section h2 {
+        font-size: 52px;
+        padding: 20px;
+        }
+
+    .challenge-section p {
+        font-size: 18px;
+        margin: 0 auto 30px auto;
+    }
+
+    .challenge-section .btn-second {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .btn-second a {
+        width: 100%;
+        padding: 55px 0;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .faq {
+        padding:  70px 20px;
+    }
+
+    .faq details {
+        width:  70%;
+        padding: 30px;
+    }
+
+    .faq details h2 {
+        font-size: 30px;
+        border: none;
+    }
+
+    .faq p {
+        font-size: 18px;
+        line-height: 1.7;
+        padding: 25px;
+        margin-top: 25px;
+    }
+
+    .rodape {
+    padding: 40px 20px;
+    }
+
+.rodape .container-footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    }
+
+.rodape p {
+        margin: 0;
+        font-size: 16px;
+    }
+}  /* FIM DA MEDIA QUERY  (min-width:500px) and (max-width: 767px)  */
+
+/*  INÍCIO DA MEDIA QUERY  (min-width:320px) and (max-width: 500px)  */
+@media (min-width:320px) and (max-width: 500px) {
+    :root {
+        --paddingsection-vertical: 100px;
+    }
+
+    .hero-section { 
+        min-height: 650px;
+    }
+
+    .hero-section h1 { 
+        font-size: 54px;
+        max-width: 1000px;
+    }
+
+    .hero-section .hero-description {
+        font-size: 20px;
+    }
+
+    .hero-section .btn {
+        margin-top: 30px;
+    }
+
+    .learn-section h2 {
+        font-size: 48px;
+    }
+
+    .learn-cards-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        max-width: 400px;
+    }
+
+    .learn-card {
+        width: auto;
+        min-height: 320px;
+        padding: 40px;
+    }
+
+    .learn-card h3 {
+        font-size: 24px;
+    }
+
+    .learn-card p {
+        font-size: 16px;
+    }
+
+    .challenge-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .challenge-section .image-column {
+        flex: 1;
+        max-width: 500px;
+    }
+
+    .challenge-section .image-column img {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .challenge-section .text-column {
+        flex: 1; 
+        text-align: center;
+    }
+
+    .challenge-section h2 {
+        font-size: 52px;
+        padding: 80px;
+        }
+
+    .challenge-section p {
+        font-size: 18px;
+        padding: 70px;
+        margin: 0 auto 30px auto;
+    }
+
+    .challenge-section .btn-second {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .btn-second a {
+        width: 100%;
+        padding: 55px 0;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .faq {
+        padding:  70px 20px;
+    }
+
+    .faq details {
+        width:  70%;
+        padding: 30px;
+    }
+
+    .faq details h2 {
+        font-size: 30px;
+        border: none;
+    }
+
+    .faq p {
+        font-size: 18px;
+        line-height: 1.7;
+        padding: 25px;
+        margin-top: 25px;
+    }
+
+    .rodape {
+    padding: 40px 20px;
+    }
+
+.rodape .container-footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    }
+
+.rodape p {
+        margin: 0;
+        font-size: 16px;
+    }
+}
+
+
+
+
