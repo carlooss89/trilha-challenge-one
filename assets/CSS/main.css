@@ -6,9 +6,9 @@
     box-sizing: border-box; 
 }
 
-:root { /* Define variáveis CSS para facilitar a manutenção e consistência de estilos */
+:root { 
     --first-color: rgba(0, 0, 0, 1);
-    --second-color: rgba(201, 243, 29, 1);
+    --second-color: rgb(201, 243, 29);
     --third-color: #ffffff;
     --font-family-main: "Roboto", sans-serif;
     --padding-section-vertical: 80px;
@@ -20,7 +20,7 @@ body {
     color: var(--third-color);
     font-family: var(--font-family-main);
     line-height: 1.6;
-    overflow-x: hidden; /* Evita rolagem horizontal indesejada em mobile */
+    overflow-x: hidden; 
 }
 span {
     color: var(--second-color);
@@ -48,7 +48,7 @@ span {
 .hero-section {
     background-color: var(--first-color);
     padding: var(--padding-section-vertical) var(--padding-section-horizontal);
-    min-height: 600px; /* Altura mínima para garantir espaço suficiente */
+    min-height: 600px; 
     display: flex; 
     flex-direction: column; 
     justify-content: center;
@@ -58,7 +58,7 @@ span {
 
     .hero-section .logo img{
         max-width: 250px;
-        height: auto; /* Mantém a proporção da imagem */
+        height: auto; 
         margin-bottom: 20px;
     }
 
@@ -68,7 +68,7 @@ span {
         font-weight: 600;
         line-height: 1.2;
         margin-bottom: 20px;
-        max-width: 90%; /* Limita a largura do título para evitar quebras de linha muito longas */
+        max-width: 90%; 
     }
 
     .hero-section .hero-description {
@@ -76,10 +76,10 @@ span {
         font-size: 18px;
         line-height: 1.5;
         margin-bottom: 40px;
-        max-width: 700px; /* Limita a largura do parágrafo para melhor leitura */
+        max-width: 700px; 
     }
 
-    .hero-section .btn-firstr { /* Para centralizar o botão se necessário */
+    .hero-section .btn-firstr { 
     margin-top: 20px;
 }
 /* FIM DA SEÇÃO HERO */
@@ -95,15 +95,15 @@ span {
 .learn-section h2 { 
     color: var(--first-color);
     font-size: 64px;
-    font-weight: 700;/* Uma coluna, que ocupa 100% do espaço disponível */
+    font-weight: 700;
     margin-bottom: 60px;
 } 
 
-.learn-cards-grid { /* Container para a grade de cards */
+.learn-cards-grid { 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Cria colunas responsivas que se ajustam ao tamanho da tela */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 20px 60px; 
-    max-width: 1200px; /* Limita a largura máxima do grid */
+    max-width: 1200px; 
     width: 100%; 
     margin: 0 auto;
     justify-content: center;
@@ -125,7 +125,7 @@ span {
 .learn-card img {
     width: 60px;
     height: 60px;
-    object-fit: contain; /* Garante que a imagem se ajuste sem cortar */
+    object-fit: contain; 
     margin: 20px;
 }
 
